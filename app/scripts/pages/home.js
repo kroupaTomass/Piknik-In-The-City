@@ -4,6 +4,7 @@ import ItemStore from '../stores/itemStore';
 import ItemActions from '../actions/itemActions';
 import Scroll from 'scrollReveal';
 
+
 class Home extends React.Component {
 
   constructor(props){
@@ -33,7 +34,8 @@ class Home extends React.Component {
 
     return (
       <div id="topPage" className='div-home-panel'>
-        <img src='images/logoPiknik.jpg' className='img-responsive' data-sr="move 16px scale down 20%, over 2s" />
+        <a href="https://www.facebook.com/PiknikintheCity" title="Piknik In The City" target="_blank">
+        <img src='images/logoPiknik.jpg' className='img-responsive' /></a>
         <p className='p-hash-tag-text'><a href="https://instagram.com/piknik_in_the_city" title="Piknik In The City" target="_blank">#PiknikInTheCity</a></p>
       </div>
     );

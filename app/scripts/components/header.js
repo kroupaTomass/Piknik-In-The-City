@@ -10,7 +10,7 @@ class Header extends React.Component{
   render() {
     return (
       <header className="clearfix">
-        <a href="#topPage"><img src='images/logoPiknik-min.jpg' alt='Piknik In The City' /></a>
+        <a href="#"><img src='images/logoPiknik-min.jpg' alt='Piknik In The City' /></a>
       </header>
     );
   }

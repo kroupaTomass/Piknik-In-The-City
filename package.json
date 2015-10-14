@@ -1,21 +1,17 @@
 {
-  "name": "webkid-react-starterkit",
-  "version": "0.3.1",
-  "description": "Lightweight starting point for a react web app.",
+  "name": "PiknikInTheCity",
+  "version": "0.0.1",
+  "description": "PiknikInTheCity",
   "keywords": [
-    "react",
-    "starterkit",
-    "frontend",
-    "boilerplate",
-    "reflux",
-    "react-router"
+    "PiknikInTheCity",
+    "Piknik In The City",
+    "Piknik"
   ],
   "main": "index.html",
   "scripts": {
-    "start": "gulp",
-    "test": "jest"
+    "start": "gulp"
   },
-  "author": "@moklick <mo@webkid.io>",
+  "author": "@kroupaTomass",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^4.7.0",
@@ -40,10 +36,8 @@
     "webpack": "^1.7.3"
   },
   "dependencies": {
-    "bootstrap": "^3.3.5",
     "facebook-node-sdk": "^0.2.0",
     "fs": "0.0.2",
-    "jquery": "^2.1.4",
     "react": "^0.13.1",
     "react-router": "^0.13.2",
     "reflux": "^0.2.7",
