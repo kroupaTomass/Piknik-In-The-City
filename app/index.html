@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>    
+  <head>
     <meta charset="utf-8">
     <meta name="description" content="Piknik In The City">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Piknik In The City</title>
     <link rel="stylesheet" href="css/main.css">
       <script>
-        (function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          console.log(js);
-          js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.4";
-          fjs.parentNode.insertBefore(js, fjs);
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
 
         window.onload = function() {
