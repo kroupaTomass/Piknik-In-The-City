@@ -37,6 +37,8 @@ class Home extends React.Component {
         <a href="https://www.facebook.com/PiknikintheCity" title="Piknik In The City" target="_blank">
         <img src='images/logoPiknik.jpg' className='img-responsive' /></a>
         <p className='p-hash-tag-text'><a href="https://instagram.com/piknik_in_the_city" title="Piknik In The City" target="_blank">#PiknikInTheCity</a></p>
+        <hr />
+        <ItemList { ...this.state } />
       </div>
     );
   }

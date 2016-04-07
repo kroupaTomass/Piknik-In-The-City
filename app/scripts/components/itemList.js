@@ -1,25 +1,36 @@
 import React from 'react';
+import ListItem from '../actions/list-item';
 
 class ItemList extends React.Component {
-  
+
   constructor(){
     super();
   }
 
+  getItems() {
+    return (
+      <p>
+        {this.props.items.map((item, index) => {
+          return <ListItem key={index}
+            item={item} />;
+        })}
+      </p>
+    )
+  }
+
   render() {
-    var items = this.props.items.map(item => <li key={ item }>{ item }</li>),
-      loading = this.props.loading ? <div className="loading-label">Loading...</div> : '';
+    let items = this.getItems();
+    let loading = this.props.loading ? <div className="loading-label">Probíhá načítání blogu ...</div> : '';
 
     return (
-      <div>
+      <div className='div-blog-panel'>
         { loading }
-        <ul>
+        <p>
           { items }
-        </ul>
+        </p>
       </div>
     );
   }
-                                     
 }
 
 ItemList.propTypes = {
